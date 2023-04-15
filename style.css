@@ -1,0 +1,142 @@
+body {
+    background-color: #1f1f1f;
+    color: #ffffff;
+    font-family: "Cinzel Decorative", cursive;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1 {
+    color: #ffcc00;
+    font-size: 48px;
+    margin: 0;
+    padding: 20px 0 0;
+    text-align: center;
+    text-shadow: 2px 2px #000000;
+  }
+  
+  h2 {
+    color: #ffffff;
+    font-size: 24px;
+    margin: 0;
+    padding: 20px 0 10px;
+    text-align: center;
+    text-shadow: 1px 1px #000000;
+  }
+
+  #Estado{
+    font-size: 20px;
+  }
+
+  #Temporal{
+    font-size: 20px;
+  }
+  
+  form {
+    margin: 0 auto;
+    max-width: 500px;
+    padding: 20px;
+  }
+  
+  label {
+    display: block;
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="number"] {
+    background-color: #383838;
+    border: none;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  button {
+    background-color: #ffcc00;
+    border: none;
+    color: #000000;
+    cursor: pointer;
+    font-family: "Cinzel Decorative", cursive;
+    font-size: 24px;
+    padding: 10px 20px;
+    margin-top: 10px;
+    display: inline-block;
+  }
+  
+  button:hover {
+    background-color: #ffffff;
+    color: #000000;
+  }
+  
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    background-color: #383838;
+    border-bottom: 1px solid #1f1f1f;
+    font-size: 20px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  li:last-child {
+    border-bottom: none;
+  }
+  
+  li:hover {
+    background-color: #1f1f1f;
+    color: #ffffff;
+    cursor: pointer;
+  }
+  
+  .plus-minus {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .plus-minus button {
+    margin: 5px 0;
+  }
+  #agregar {
+	background-color: #ffcc00;
+	border: none;
+	color: #000000;
+	cursor: pointer;
+	font-size: 24px;
+	padding: 10px 20px;
+	margin-top: 10px;
+    font-family: "Cinzel Decorative", cursive;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	text-align: center;
+	box-shadow: 2px 2px #000000;
+}
+
+#agregar:hover {
+	background-color: #ffffff;
+	color: #000000;
+	box-shadow: 3px 3px #000000;
+}
+/* ul li:first-child {
+	background-color: rgb(255, 204, 0);
+} */
+
+
+li.resaltado {
+	background-color: rgb(255, 204, 0);
+	color: #000000;
+	font-weight: bold;
+}

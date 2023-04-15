@@ -140,3 +140,53 @@ li.resaltado {
 	color: #000000;
 	font-weight: bold;
 }
+
+
+@media only screen and (max-width: 600px) {
+
+h1 {
+font-size: 36px;
+}
+
+h2 {
+font-size: 20px;
+}
+
+#Estado{
+font-size: 16px;
+}
+
+#Temporal{
+font-size: 16px;
+}
+
+form {
+max-width: 400px;
+}
+
+input[type="text"],
+input[type="number"] {
+font-size: 16px;
+padding: 8px;
+}
+
+button {
+font-size: 20px;
+padding: 8px 16px;
+}
+
+li {
+font-size: 16px;
+padding: 8px;
+}
+
+.plus-minus button {
+margin: 2px 0;
+}
+
+#agregar {
+font-size: 20px;
+padding: 8px 16px;
+}
+
+}

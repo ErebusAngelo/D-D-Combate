@@ -1,5 +1,6 @@
 body {
-    background-color: #1f1f1f;
+    background-color: #222630ef ;
+    background-size: cover;
     color: #ffffff;
     font-family: "Cinzel Decorative", cursive;
     font-size: 18px;
@@ -17,8 +18,9 @@ body {
   }
   
   h2 {
-    color: #ffffff;
-    font-size: 24px;
+    color: #dfc100;
+    font-size: 30px;
+    font-weight: bold;
     margin: 0;
     padding: 20px 0 10px;
     text-align: center;
@@ -27,10 +29,12 @@ body {
 
   #Estado{
     font-size: 20px;
+    border-radius: 5px;
   }
 
   #Temporal{
     font-size: 20px;
+    border-radius: 5px;
   }
   
   form {
@@ -41,15 +45,21 @@ body {
   
   label {
     display: block;
-    font-size: 20px;
+    color: #ffffff;
+    border-radius: 5px;
+    font-family: "Cinzel Decorative", cursive;
+    font-size: 25px;
+    font-weight: bolder;
+    
     margin-bottom: 5px;
   }
   
   input[type="text"],
   input[type="number"] {
     background-color: #383838;
-    border: none;
-    color: #ffffff;
+    border-radius: 15px;
+    opacity: 75%;
+    color: #fbe707;
     font-size: 20px;
     padding: 10px;
     width: 100%;
@@ -69,7 +79,7 @@ body {
   }
   
   button:hover {
-    background-color: #ffffff;
+    background-color: #bcc603;
     color: #000000;
   }
   
@@ -82,7 +92,7 @@ body {
   li {
     background-color: #383838;
     border-bottom: 1px solid #1f1f1f;
-    font-size: 20px;
+    font-size: 25px;
     padding: 10px;
     display: flex;
     justify-content: space-between;
@@ -95,7 +105,7 @@ body {
   
   li:hover {
     background-color: #1f1f1f;
-    color: #ffffff;
+    color: #caca33;
     cursor: pointer;
   }
   
@@ -136,12 +146,10 @@ body {
 
 
 li.resaltado {
-	background-color: rgb(255, 204, 0);
+	background-color: rgb(237, 152, 40);
 	color: #000000;
 	font-weight: bold;
 }
-
-
 @media only screen and (max-width: 600px) {
 
 h1 {

@@ -26,7 +26,9 @@ body {
     text-align: center;
     text-shadow: 1px 1px #000000;
   }
-
+#cambiar-turno{
+  margin-left: 44%;
+}
   #Estado{
     font-size: 20px;
     border-radius: 5px;
